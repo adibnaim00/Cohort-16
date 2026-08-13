@@ -684,3 +684,118 @@ footer p {
     }
 
 }
+
+/* =========================
+   TIMETABLE SECTION
+========================= */
+
+.timetable-section {
+
+    min-height: 100vh;
+
+    padding: 150px 7% 100px;
+
+    background: #f7f4ef;
+
+}
+
+
+.timetable-section .section-title {
+
+    text-align: center;
+
+    margin-bottom: 50px;
+
+}
+
+
+.timetable-section .section-title p {
+
+    color: #800000;
+
+    font-size: 12px;
+
+    letter-spacing: 4px;
+
+}
+
+
+.timetable-section .section-title h1 {
+
+    font-size: 60px;
+
+    color: #800000;
+
+    margin: 15px 0;
+
+}
+
+
+.timetable-section .section-title span {
+
+    color: #777;
+
+}
+
+
+/* TIMETABLE IMAGE CARD */
+
+.timetable-card {
+
+    max-width: 1200px;
+
+    margin: auto;
+
+    padding: 20px;
+
+    background: white;
+
+    border-radius: 20px;
+
+    box-shadow:
+        0 20px 60px
+        rgba(0, 0, 0, 0.12);
+
+    overflow-x: auto;
+
+}
+
+
+.timetable-card img {
+
+    display: block;
+
+    width: 100%;
+
+    height: auto;
+
+    border-radius: 10px;
+
+}
+
+
+/* MOBILE */
+
+@media (max-width: 700px) {
+
+    .timetable-section {
+
+        padding: 120px 15px 70px;
+
+    }
+
+
+    .timetable-section .section-title h1 {
+
+        font-size: 45px;
+
+    }
+
+
+    .timetable-card {
+
+        padding: 10px;
+
+    }
+
+}
